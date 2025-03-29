@@ -1,6 +1,3 @@
-#include<iostream>
-#include<concepts>
-
 template <typename T> requires std::floating_point<T>		//Impongo il vincolo che T debba essere un tipo floating-point, un numero a virgola mobile
 
 class complex_number {
